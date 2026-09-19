@@ -2,6 +2,6 @@
 
 cd /home/ec2-user/flask-app
 
-pip3 install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
-nohup python3 app.py > app.log 2>&1 &
+nohup python3 app.py > /tmp/flask.log 2>&1 &
